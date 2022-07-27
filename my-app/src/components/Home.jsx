@@ -12,7 +12,7 @@ const Home = () => {
           Stefanos Kapsoritakis
         </h1>
         <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>
-          I'm a Junior Game Developer.
+          I'm a Game Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           I’m a game design graduate specializing in Unity and C#. 
