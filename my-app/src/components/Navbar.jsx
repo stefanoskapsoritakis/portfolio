@@ -122,7 +122,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='/'>
             
-              Email 
+              E-Mail
               
             
             </a>
