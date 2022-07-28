@@ -10,6 +10,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/St_K-removebg-preview.png';
+import CV from '../assets/CV.pdf'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -129,10 +130,8 @@ const Navbar = () => {
             <HiOutlineMail size={30} />
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
+            <a className='flex justify-between items-center w-full text-gray-300'
+              href={CV} download>
               CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
