@@ -4,13 +4,11 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/St_K-removebg-preview.png';
-import CV from '../assets/CV.pdf'
+import CV from '../assets/Stefanos Kapsoritakis-Integrify CV.pdf'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -100,32 +98,22 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/stefanos-kapsoritakis-1a6887246/'
-            >
+            <a className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.linkedin.com/in/stefanos-kapsoritakis/' target="_blank" rel="noopener noreferrer">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/stefanoskapsoritakis'
-            >
+            <a className='flex justify-between items-center w-full text-gray-300'
+              href='https://github.com/stefanoskapsoritakis' target="_blank" rel="noopener noreferrer">
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-          <Link to='contact' smooth={true} duration={500}>
-            
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'>
-            
-              E-Mail
-              
-            
-            </a>
+            <Link to='contact' smooth={true} duration={500}>
+              <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                E-Mail
+              </a>
             </Link>
             <HiOutlineMail size={30} />
           </li>

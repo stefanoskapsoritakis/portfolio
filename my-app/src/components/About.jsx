@@ -11,19 +11,26 @@ const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+          <div className='sm:text-right text-4xl font-bold'>
+            <p>Hi. I'm Stefanos, nice to meet you. Please take a look around.</p>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Stefanos, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about programming and improving my skills, 
-                I love working in groups and have lots of experience being a group member and a leader.
-                Some of my hobbies include playing basketball, going to the gym and swimming. 
-                My true passion is video games, I fell in love with them at a young age and decided to enter the business.
-                I cannot wait to find out where this journey takes me.</p>  
-            </div>
+          <div>
+            <p>
+              A dedicated software developer driven by a passion for programming and a relentless pursuit of skill enhancement.
+            </p>
+            <p>
+              Proficient in collaborating within diverse teams, adept at both contributing as a valuable team member and providing effective leadership.
+            </p>
+            <p>
+              Beyond software development, I am an avid sports enthusiast, engaging in activities such as basketball, gym workouts, and swimming.
+            </p>
+            <p>
+              I eagerly anticipate the exciting journey ahead in the dynamic field of software development.
+            </p>
           </div>
+        </div>
       </div>
     </div>
   );
